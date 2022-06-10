@@ -1,0 +1,25 @@
+#jogo{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.portas{
+display: flex;
+align-self: stretch;
+justify-content:space-around;
+flex-wrap: wrap;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    margin:40px;
+}
+.menu button {
+    background-color: #c0392c;
+    color: #fff;
+    font-size: 2rem;
+    border: none;
+    padding: 15px 30px 20px 30px;
+}

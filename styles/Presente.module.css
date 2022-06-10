@@ -1,0 +1,42 @@
+.presente {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tampa {
+  width: 100px;
+  height: 25px;
+  background-color: #7aa940;
+  box-shadow: 0px 0px 100px 1px rgba(255, 199, 87, 0.338);
+  border-bottom: 2px solid rgba(6, 59, 15, 0.801);
+  border-radius: 0px 0px 1px 1px;
+}
+
+.corpo {
+  width: 90px;
+  height: 60px;
+  background-color: #5c7e32;
+  box-shadow: 0px 3px 100px 1px rgba(255, 199, 87, 0.297);
+}
+.lacoV {
+  position: absolute;
+  width: 15px;
+  height: 85.9px;
+  background-color: red;
+  box-shadow: 0px 0px 2px 1px rgba(8, 8, 8, 0.365);
+}
+.lacoH {
+  position: absolute;
+  top: 255px;
+  width: 92px;
+  height: 15px;
+  background-color: red;
+  box-shadow: 0px 0px 1px 1px rgba(8, 8, 8, 0.116);
+}
+.img{
+  background-image: url(https://scontent-gru2-2.xx.fbcdn.net/v/t1.18169-9/11745372_875835055826875_6692676106452801188_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=VHTxGSeSbI4AX-K8Aro&_nc_ht=scontent-gru2-2.xx&oh=00_AT_9jxDpD0TZkSxfafPeV6iUIgLnPcBV3MPxs77ZMr0bNg&oe=62C694E1);
+  background-size: 170px 296px;
+  width: 170px;
+  height: 296px;
+  
+}

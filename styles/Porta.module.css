@@ -1,0 +1,64 @@
+.area {
+  
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: var(--portaW);
+  height: var(--portaH);
+  margin: 5px;
+}
+.batente {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+  border-left: 5px solid brown;
+  border-top: 5px solid brown;
+  border-right: 5px solid brown;
+  width: 90%;
+  background-color: #0006;
+}
+.fechadura {
+  position: absolute;
+ 
+  align-self: flex-start;
+  top: calc(0.45 * var(--portaH));
+  
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: brown;
+}
+.porta {
+  
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  background-color: chocolate;
+
+  /* temmp */
+}
+
+.numero {
+  font-size: 3rem;
+}
+.chao {
+  position: relative;
+  height: 10px;
+  width: 100%;
+  background-color: #ddd;
+}
+.selecionada{
+    border-left: 5px solid yellow;
+    border-top: 5px solid yellow;
+    border-right: 5px solid yellow;
+    box-shadow: 0px 0px 10px 2px rgb(255, 199, 32);
+}
+.selecionada .numero{
+    color: yellow;
+}
+.selecionada .fechadura{
+    background-color: yellow;
+}
