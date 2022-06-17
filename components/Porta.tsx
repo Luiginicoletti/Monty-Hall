@@ -3,11 +3,11 @@ import PortaModel from "../model/porta";
 import Presente from '../components/Presente.jsx'
 
 interface PortaProps {
-  value: PortaModel;
-  onChange: (novaPorta: PortaModel) => void;
+  value: PortaModel
+  onChange: (novaPorta: PortaModel) => void
 }
 
-export default function Porta(props: PortaModel) {
+export default function Porta(props: PortaProps) {
   const porta = props.value;
   const selecionada = porta.selecionada && !porta.aberta ? styles.selecionada : "";
   const alternarSelecao = (e) => props.onChange(porta.alternarSelecao());

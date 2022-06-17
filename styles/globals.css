@@ -4,8 +4,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: #444;
-    color: #fff;
+    background-color: #592018;
+background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  color: #fff;
 }
 
 a {
@@ -15,7 +17,6 @@ a {
 
 * {
   box-sizing: border-box;
-
 }
 
 :root {

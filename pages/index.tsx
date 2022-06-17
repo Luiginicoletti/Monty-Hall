@@ -12,6 +12,9 @@ export default function Form() {
       <div>
         <Cartao bgcolor="#c0392c">
           <h1>Monty Hall</h1>
+          <p>Selecione o número de portas [1/100]</p>
+          <p>Selecione a porta que terá o presente</p>
+          <p>Para uma melhor experiência pressione f11</p>
         </Cartao>
         <Cartao >
           <EntradaNumerica  text="Portas" value={portas} onChange={nPortas => setPortas(nPortas)} />

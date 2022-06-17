@@ -1,10 +1,26 @@
 .cartao {
   display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
   width: 300px;
   height: 300px;
-  padding: 5px;
-  font-size: 2rem;
+  padding: 4px;
+  font-size: 1.1rem;
   color: #fff;
   margin: 3px;
+  box-shadow: 1px 1px 150px rgba(0, 0, 0, 1);
+  
+}
+.cartao h1 {
+  margin-bottom: 60px;
+}
+.cartao p {
+ 
+  
+  font-size: 0.88rem;
+  padding: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius:11px;
 }
 
